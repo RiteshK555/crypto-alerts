@@ -1,0 +1,220 @@
+    PID TTY          TIME CMD
+  23222 ?        00:00:00 dbus-daemon
+  23221 ?        00:00:00 dbus-launch
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00  \_ rcu_gp
+      4 ?        00:00:00  \_ rcu_par_gp
+      6 ?        00:00:00  \_ kworker/0:0H-kblockd
+      9 ?        00:00:00  \_ mm_percpu_wq
+     10 ?        00:00:00  \_ ksoftirqd/0
+     11 ?        00:00:30  \_ rcu_sched
+     12 ?        00:00:00  \_ migration/0
+     13 ?        00:00:00  \_ idle_inject/0
+     14 ?        00:00:00  \_ cpuhp/0
+     15 ?        00:00:00  \_ cpuhp/1
+     16 ?        00:00:00  \_ idle_inject/1
+     17 ?        00:00:00  \_ migration/1
+     18 ?        00:00:00  \_ ksoftirqd/1
+     20 ?        00:00:00  \_ kworker/1:0H-kblockd
+     21 ?        00:00:00  \_ cpuhp/2
+     22 ?        00:00:00  \_ idle_inject/2
+     23 ?        00:00:00  \_ migration/2
+     24 ?        00:00:00  \_ ksoftirqd/2
+     26 ?        00:00:00  \_ kworker/2:0H-kblockd
+     27 ?        00:00:00  \_ cpuhp/3
+     28 ?        00:00:00  \_ idle_inject/3
+     29 ?        00:00:00  \_ migration/3
+     30 ?        00:00:00  \_ ksoftirqd/3
+     32 ?        00:00:00  \_ kworker/3:0H-kblockd
+     33 ?        00:00:00  \_ cpuhp/4
+     34 ?        00:00:00  \_ idle_inject/4
+     35 ?        00:00:00  \_ migration/4
+     36 ?        00:00:00  \_ ksoftirqd/4
+     38 ?        00:00:00  \_ kworker/4:0H-kblockd
+     39 ?        00:00:00  \_ cpuhp/5
+     40 ?        00:00:00  \_ idle_inject/5
+     41 ?        00:00:00  \_ migration/5
+     42 ?        00:00:00  \_ ksoftirqd/5
+     44 ?        00:00:00  \_ kworker/5:0H-kblockd
+     45 ?        00:00:00  \_ cpuhp/6
+     46 ?        00:00:00  \_ idle_inject/6
+     47 ?        00:00:00  \_ migration/6
+     48 ?        00:00:01  \_ ksoftirqd/6
+     50 ?        00:00:00  \_ kworker/6:0H-kblockd
+     51 ?        00:00:00  \_ cpuhp/7
+     52 ?        00:00:00  \_ idle_inject/7
+     53 ?        00:00:00  \_ migration/7
+     54 ?        00:00:00  \_ ksoftirqd/7
+     56 ?        00:00:00  \_ kworker/7:0H-kblockd
+     57 ?        00:00:00  \_ kdevtmpfs
+     58 ?        00:00:00  \_ netns
+     59 ?        00:00:00  \_ rcu_tasks_kthre
+     60 ?        00:00:00  \_ rcu_tasks_rude_
+     61 ?        00:00:00  \_ rcu_tasks_trace
+     62 ?        00:00:02  \_ kauditd
+     63 ?        00:00:00  \_ khungtaskd
+     64 ?        00:00:00  \_ oom_reaper
+     65 ?        00:00:00  \_ writeback
+     66 ?        00:00:00  \_ kcompactd0
+     67 ?        00:00:00  \_ ksmd
+     68 ?        00:00:00  \_ khugepaged
+    115 ?        00:00:00  \_ kintegrityd
+    116 ?        00:00:00  \_ kblockd
+    117 ?        00:00:00  \_ blkcg_punt_bio
+    118 ?        00:00:00  \_ tpm_dev_wq
+    119 ?        00:00:00  \_ ata_sff
+    120 ?        00:00:00  \_ md
+    121 ?        00:00:00  \_ edac-poller
+    122 ?        00:00:00  \_ devfreq_wq
+    123 ?        00:00:00  \_ watchdogd
+    125 ?        00:00:00  \_ pm_wq
+    127 ?        00:00:02  \_ kswapd0
+    128 ?        00:00:00  \_ ecryptfs-kthrea
+    130 ?        00:00:00  \_ kthrotld
+    131 ?        00:00:00  \_ irq/122-pciehp
+    132 ?        00:00:00  \_ irq/123-aerdrv
+    133 ?        00:00:00  \_ irq/123-pcie-dp
+    140 ?        00:00:00  \_ acpi_thermal_pm
+    141 ?        00:00:00  \_ vfio-irqfd-clea
+    143 ?        00:00:00  \_ ipv6_addrconf
+    152 ?        00:00:00  \_ kstrp
+    155 ?        00:00:00  \_ zswap-shrink
+    163 ?        00:00:00  \_ charger_manager
+    219 ?        00:00:00  \_ scsi_eh_0
+    220 ?        00:00:00  \_ scsi_tmf_0
+    221 ?        00:00:00  \_ scsi_eh_1
+    222 ?        00:00:00  \_ scsi_tmf_1
+    224 ?        00:00:00  \_ nvme-wq
+    225 ?        00:00:00  \_ nvme-reset-wq
+    226 ?        00:00:00  \_ nvme-delete-wq
+    227 ?        00:00:00  \_ sdhci
+    228 ?        00:00:00  \_ irq/19-mmc0
+    229 ?        00:00:00  \_ irq/126-0000:00
+    238 ?        00:00:07  \_ irq/136-SYNA328
+    239 ?        00:00:00  \_ irq/137-ELAN251
+    262 ?        00:00:00  \_ kworker/4:1H-events_highpri
+    264 ?        00:00:03  \_ jbd2/nvme0n1p5-
+    265 ?        00:00:00  \_ ext4-rsv-conver
+    323 ?        00:00:00  \_ kworker/5:1H-events_highpri
+    329 ?        00:00:00  \_ kworker/3:1H-kblockd
+    331 ?        00:00:00  \_ kworker/2:1H-kblockd
+    338 ?        00:00:00  \_ loop0
+    353 ?        00:00:00  \_ loop1
+    402 ?        00:00:00  \_ loop2
+    405 ?        00:00:00  \_ loop3
+    417 ?        00:00:00  \_ kworker/1:1H-events_highpri
+    418 ?        00:00:00  \_ loop4
+    420 ?        00:00:01  \_ kworker/6:1H-events_highpri
+    421 ?        00:00:01  \_ kworker/7:1H-events_highpri
+    425 ?        00:00:00  \_ loop5
+    429 ?        00:00:00  \_ loop6
+    430 ?        00:00:00  \_ loop7
+    435 ?        00:00:01  \_ kworker/0:1H-events_highpri
+    438 ?        00:00:00  \_ cfg80211
+    439 ?        00:00:00  \_ irq/138-mei_me
+    448 ?        00:00:00  \_ loop8
+    450 ?        00:00:10  \_ irq/141-iwlwifi
+    451 ?        00:00:02  \_ irq/142-iwlwifi
+    452 ?        00:00:04  \_ irq/143-iwlwifi
+    453 ?        00:00:03  \_ irq/144-iwlwifi
+    454 ?        00:00:06  \_ irq/145-iwlwifi
+    455 ?        00:00:02  \_ irq/146-iwlwifi
+    456 ?        00:00:05  \_ irq/147-iwlwifi
+    457 ?        00:00:03  \_ irq/148-iwlwifi
+    458 ?        00:00:05  \_ irq/149-iwlwifi
+    459 ?        00:00:00  \_ irq/152-iwlwifi
+    474 ?        00:00:00  \_ loop9
+    488 ?        00:00:00  \_ loop10
+    489 ?        00:00:00  \_ cryptd
+    507 ?        00:00:00  \_ loop11
+    525 ?        00:00:00  \_ loop12
+    530 ?        00:00:00  \_ loop13
+    603 ?        00:00:00  \_ loop14
+    623 ?        00:00:00  \_ loop15
+    655 ?        00:00:00  \_ loop16
+    660 ?        00:00:00  \_ loop17
+    664 ?        00:00:00  \_ loop18
+    699 ?        00:00:00  \_ loop19
+    733 ?        00:00:00  \_ loop20
+    736 ?        00:00:00  \_ loop21
+    738 ?        00:00:00  \_ loop22
+    739 ?        00:00:00  \_ loop23
+    740 ?        00:00:00  \_ loop24
+    741 ?        00:00:00  \_ loop25
+    742 ?        00:00:00  \_ loop26
+    743 ?        00:00:00  \_ loop27
+    744 ?        00:00:00  \_ loop28
+    745 ?        00:00:00  \_ loop29
+    746 ?        00:00:00  \_ loop30
+    747 ?        00:00:00  \_ loop31
+    748 ?        00:00:00  \_ loop32
+    749 ?        00:00:00  \_ loop33
+    750 ?        00:00:00  \_ loop34
+    751 ?        00:00:00  \_ loop35
+    752 ?        00:00:00  \_ loop36
+    753 ?        00:00:00  \_ loop37
+    754 ?        00:00:00  \_ loop38
+    755 ?        00:00:00  \_ loop39
+    756 ?        00:00:00  \_ loop40
+    757 ?        00:00:00  \_ loop41
+   1774 ?        00:00:00  \_ none
+   2015 ?        00:00:00  \_ krfcommd
+  17542 ?        00:00:03  \_ kworker/u16:1-ext4-rsv-conversion
+  18484 ?        00:00:20  \_ kworker/6:1-events
+  19998 ?        00:00:00  \_ kworker/5:2-events
+  20009 ?        00:00:00  \_ kworker/2:4-events
+  20056 ?        00:01:19  \_ kworker/6:2-events
+  20481 ?        00:00:00  \_ kworker/0:0-events
+  23497 ?        00:00:00  \_ kworker/4:2-events
+  23499 ?        00:00:01  \_ kworker/4:4-events
+  24869 ?        00:00:00  \_ kworker/u16:0-events_power_efficient
+  25329 ?        00:00:00  \_ kworker/7:3-events
+  27326 ?        00:00:00  \_ kworker/0:1-events
+  28087 ?        00:00:04  \_ kworker/u17:1-i915_flip
+  28298 ?        00:00:00  \_ kworker/3:0-mm_percpu_wq
+  28658 ?        00:00:00  \_ kworker/2:1-events
+  28987 ?        00:00:01  \_ kworker/1:2-events
+  29197 ?        00:00:00  \_ kworker/3:1-rcu_gp
+  29949 ?        00:00:00  \_ kworker/u16:3-events_unbound
+  30077 ?        00:00:00  \_ kworker/u17:0-rb_allocator
+  30107 ?        00:00:00  \_ kworker/1:1-events
+  30842 ?        00:00:00  \_ kworker/7:0-events
+  31167 ?        00:00:00  \_ kworker/5:1-mm_percpu_wq
+  31377 ?        00:00:00  \_ kworker/u17:2-rb_allocator
+  31915 ?        00:00:00  \_ kworker/0:2-events
+  31916 ?        00:00:00  \_ kworker/2:0-events
+  31917 ?        00:00:00  \_ kworker/2:2-events
+  31918 ?        00:00:00  \_ kworker/2:3-events
+  32191 ?        00:00:00  \_ kworker/3:2
+  32272 ?        00:00:00  \_ kworker/6:0-events
+  32273 ?        00:00:00  \_ kworker/6:3-events
+  32274 ?        00:00:00  \_ kworker/6:4-events
+      1 ?        00:00:02 systemd
+    304 ?        00:00:21 systemd-journal
+    333 ?        00:00:00 systemd-udevd
+    862 ?        00:00:01 accounts-daemon
+    863 ?        00:00:00 acpid
+    867 ?        00:00:00 bluetoothd
+    869 ?        00:00:00 cron
+    871 ?        00:00:00 cupsd
+    873 ?        00:00:14 NetworkManager
+    879 ?        00:00:03 iio-sensor-prox
+    882 ?        00:00:01 irqbalance
+    885 ?        00:00:00 networkd-dispat
+    894 ?        00:00:02 polkitd
+    903 ?        00:00:05 snapd
+    908 ?        00:00:00 switcheroo-cont
+    909 ?        00:00:00 systemd-logind
+    910 ?        00:00:01 thermald
+    911 ?        00:00:00 udisksd
+    912 ?        00:00:00 wpa_supplicant
+    966 ?        00:00:00 cups-browsed
+    978 ?        00:00:47 dockerd
+   1742 ?        00:01:16  \_ containerd
+    994 ?        00:00:00 ModemManager
+   1039 ?        00:00:00 gdm3
+   1936 ?        00:00:00  \_ gdm-session-wor
+   1079 ?        00:00:00 apache2
+   1120 ?        00:00:00 unattended-upgr
+   1264 ?        00:00:00 upowerd
+   2709 ?        00:00:00 boltd
